@@ -214,7 +214,11 @@ background: #9AC3BB;
 color: #184A59;
 }
 
-#player.table .right > h3 {
+p.center.xlarge{
+ font-size: 14px;
+}
+
+#player.table .right .center.h3 {
 margin: 0;
 }
 
