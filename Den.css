@@ -9,12 +9,12 @@ background: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2019/11/
 background-repeat: no-repeat;
 background-size: cover;
 /*color: #000;*/
-cursor : url("https://saccharinart.github.io/Saccharin-Den/sailor-moon-michiru-kaiou-cursor.png");
+/*cursor : url("https://saccharinart.github.io/Saccharin-Den/sailor-moon-michiru-kaiou-cursor.png");*/
 }
  
 h1, h3 , .sidebar h3 {
 font-family: 'Amoria' !important;/*a name to be used later*/
-src: url('https://saccharinart.github.io/Saccharin-Den/AMORIA.otf'); /*URL to font*/
+/*src: url('https://saccharinart.github.io/Saccharin-Den/AMORIA.otf');*/ /*URL to font*/
 color: #184A59;
 }
 h1, h3 {
@@ -22,6 +22,11 @@ text-align: center;
 }
 .sidebar h3 {
 text-align: left;
+}
+
+hr{
+margin: 0;
+border: none;
 }
 
 /* Buttons */
@@ -76,7 +81,8 @@ border: none;
 
 a.navbar-brand > img {
 content: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b398317e-59ea-473f-82b0-698637eb9676/d8af9wg-fc1b0493-6343-414e-9177-fc75c8d05a6e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IzOTgzMTdlLTU5ZWEtNDczZi04MmIwLTY5ODYzN2ViOTY3NlwvZDhhZjl3Zy1mYzFiMDQ5My02MzQzLTQxNGUtOTE3Ny1mYzc1YzhkMDVhNmUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-_VV9tFez_jvcfB29Abcjxe7JxQ668yeZcdyaDGFRgU);
-height: 90px;
+height: 95px;
+margin-top: 20px;
 }
   
 .navbar-default .navbar-nav > li > a {
@@ -206,6 +212,10 @@ color: #184A59;
 .table .right, .table .right_odd {
 background: #9AC3BB;
 color: #184A59;
+}
+
+#player.table .right > h3 {
+margin: 0;
 }
 
 #player.table .right > img {
