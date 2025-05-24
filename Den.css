@@ -9,11 +9,12 @@ background: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2019/11/
 background-repeat: no-repeat;
 background-size: cover;
 /*color: #000;*/
-cursor : url(sailor-moon-michiru-kaiou-cursor.png);
+cursor : url("https://saccharinart.github.io/Saccharin-Den/sailor-moon-michiru-kaiou-cursor.png");
 }
  
 h1, h3 , .sidebar h3 {
-font-family: Arial !important;
+font-family: 'Amoria' !important;/*a name to be used later*/
+src: url('https://saccharinart.github.io/Saccharin-Den/AMORIA.otf'); /*URL to font*/
 color: #184A59;
 }
 h1, h3 {
