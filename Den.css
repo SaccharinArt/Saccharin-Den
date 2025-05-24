@@ -207,7 +207,7 @@ background: #9AC3BB;
 color: #184A59;
 }
 
-.table .right > img {
+#player.table .right > img {
 border-radius: 15%;
 content: url(https://64.media.tumblr.com/513e69fbb03fd5f4f013fbd96fd974b7/tumblr_moh1abRIES1s4u80lo1_500.gifv);
 }
