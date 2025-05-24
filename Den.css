@@ -1,0 +1,250 @@
+body {
+background: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2019/11/Sailor-Neptune-And-Sailor-Uranus.jpg") fixed;
+background-repeat: no-repeat;
+background-size: cover;
+/*color: #000;*/
+cursor : url();
+}
+ 
+h1, h3 , .sidebar h3 {
+font-family: Arial !important;
+color: #184A59;
+}
+h1, h3 {
+text-align: center;
+}
+.sidebar h3 {
+text-align: left;
+}
+
+/* Buttons */
+input[type="button"], input[type="submit"], input[type="submit"]:hover {
+background: #83B1A8;
+color: #184A59;
+border: 1px solid #000;
+text-shadow: none;
+font-weight: bold;
+font-size: 14px;
+border-radius: 5px;
+}
+
+/* Links */
+  
+.table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
+color: #184A59;
+}
+  
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+/*border-bottom: 1px solid #184A59;*/
+color: #184A59;
+}
+
+/* Topbar */
+  
+.topbar {
+background: #9AC3BB;
+color: #184A59;
+border: none;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+ 
+.badge {
+background: #9AC3BB;
+}
+
+/* Navigational Bar */
+  
+.main {
+background: none;
+color: #184A59;
+border: none;
+box-shadow: none;
+}
+  
+.navbar {
+background: #9AC3BB;
+border: none;
+}
+
+a.navbar-brand > img {
+content: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b398317e-59ea-473f-82b0-698637eb9676/d8af9wg-fc1b0493-6343-414e-9177-fc75c8d05a6e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IzOTgzMTdlLTU5ZWEtNDczZi04MmIwLTY5ODYzN2ViOTY3NlwvZDhhZjl3Zy1mYzFiMDQ5My02MzQzLTQxNGUtOTE3Ny1mYzc1YzhkMDVhNmUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-_VV9tFez_jvcfB29Abcjxe7JxQ668yeZcdyaDGFRgU);
+height: 90px;
+}
+  
+.navbar-default .navbar-nav > li > a {
+color: #184A59;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: #83B1A8;
+}
+  
+.navbar-default .navbar-nav li a:hover {
+color: #184A59;
+background: #83B1A8;
+} 
+
+/* Sidebar */
+  
+.sidebar {
+background: #83b1a8ed;
+}
+  
+.col-md-3 .panel {
+background: #abc5c0;
+color: #184A59;
+border: none;
+box-shadow: none;    
+}
+  
+.progress {
+background: none;
+box-shadow: inset 0 1px 4px rgba(0, 0, 0, .1);
+-webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, .1);
+}
+  
+/*.progress-bar {
+background: #FFB3AC;
+}*/
+
+/* Chat */
+
+#chatMessageContainer {
+border: none;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+    color: #184A59;
+}
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+    background: #83B1A8;
+}
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+    background: #96571D;
+}
+
+.s-chat-message:nth-child(odd) {
+    background: #9AC3BB;
+}
+.s-chat-message:nth-child(even) {
+    background: #83B1A8;
+}
+  
+/*.chat_light, .chat_dark {
+background: rgb(200, 245, 212);
+font-size: 11px;
+color: #000;
+}
+ 
+.chatContainer {
+border: 1px solid #000;
+}
+  
+.userstolen {
+background: none;
+}*/
+ 
+.alert-danger {
+color: #000;
+background: #FFD7CB;
+border: 1px solid #000;
+}
+ 
+.alert-success {
+color: #000;
+background: #FFD7CB;
+border: 1px solid #000;
+}
+ 
+.breadcrumb {
+background:  #83B1A8;
+/*border: 1px solid #000;*/
+}
+  
+.breadcrumb>.active {
+color: #184A59;
+}
+  
+/*h2, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: "Carter One";
+color: #000;
+}*/
+  
+.col-md-9 {
+background: #83b1a8a8;
+}
+
+/* Tables */
+  
+.table, .item {
+border: none;
+}
+
+.table .top, .table th {
+background: #9AC3BB;
+color: #184A59;
+}
+ 
+.table .left {
+background: #83B1A8;
+color: #184A59;
+}
+.table .left a {
+background: none;
+}
+div .left a {
+color: #184A59;
+}
+ 
+.table .right, .table .right_odd {
+background: #9AC3BB;
+color: #184A59;
+}
+
+.table .right > img {
+border-radius: 15%;
+content: url(https://64.media.tumblr.com/513e69fbb03fd5f4f013fbd96fd974b7/tumblr_moh1abRIES1s4u80lo1_500.gifv);
+}
+
+.inner-table .right {
+background: #ffffff47;
+color: #184A59;
+}
+ 
+div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
+background: #83B1A8;
+color: #184A59;
+}
+
+.cave-grid, div .left, .mound-grid {
+background: #83B1A8;
+color: #184A59;
+border: none;
+}
+
+.item {
+border: none;
+background: #0000000F;
+}
+
+.item-header {
+border: none;
+background: #0000001F;
+color: #184A59;
+}
+.lion-image-block img {
+border-radius: 100%
+}
+  
+/*#lion_image {
+border-radius: 25px;
+overflow: hidden;
+border: 1px solid #000;
+}
+  
+.table, .item {
+border: 1px solid #000;
+background: #C4F0CD;
+border-collapse: separate;
+}
+ */
