@@ -17,7 +17,7 @@ background-size: cover;
 cursor : url('https://saccharinart.github.io/Saccharin-Den/sailor-moon-michiru-kaiou-cursor_32.png'), default;
 }
 
-.container.main::after{
+.container.main::before{
 position: fixed;
 display: block;
 bottom: 0;
@@ -28,8 +28,10 @@ height: 36.54vw;
 background-size: 21vw 36.54vw;
 background-image: url(https://saccharinart.github.io/Saccharin-Den/SailorNeptune.png);
 background-repeat: no-repeat;
+
+z-index: 1000;
 }
-.container.topbar::after{
+.container.main::after{
 position: fixed;
 display: block;
 bottom: 0;
@@ -40,6 +42,8 @@ height: 36.54vw;
 background-size: 21vw 36.54vw;
 background-image: url(https://saccharinart.github.io/Saccharin-Den/SailorUranus.png);
 background-repeat: no-repeat;
+
+ z-index: 1000;
 }
 /*@media (min-width: 1200px) {
     .container {
