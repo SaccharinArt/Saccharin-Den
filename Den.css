@@ -14,8 +14,10 @@ background: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2019/11/
 background-repeat: no-repeat;
 background-size: cover;
 /*color: #000;*/
-cursor : url('https://saccharinart.github.io/Saccharin-Den/sailor-moon-michiru-kaiou-cursor_32.png'), auto;
+cursor : url('https://saccharinart.github.io/Saccharin-Den/sailor-moon-michiru-kaiou-cursor_32.png'), default;
+cursor : url('https://saccharinart.github.io/Saccharin-Den/sailor-moon-sailor-pluto-and-space-time-key-cursor-pack_32.png'), pointer;
 }
+
 body::after{
 /*content: "";
 display: block;
@@ -29,7 +31,7 @@ height: 65px;
 background-size: 40px 65px;
 background-image: url(https://saccharinart.github.io/Saccharin-Den/SailorUranus.png);
 background-repeat: no-repeat;*/
- background-image: url(https://saccharinart.github.io/Saccharin-Den/SailorUranus.png);
+ background-image: url(https://saccharinart.github.io/Saccharin-Den/SailorNeptune.png);
  position: fixed;
  bottom: 0;
  float: right;
