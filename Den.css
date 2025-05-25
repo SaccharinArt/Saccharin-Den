@@ -21,11 +21,11 @@ cursor : url('https://saccharinart.github.io/Saccharin-Den/sailor-moon-michiru-k
 position: fixed;
 display: block;
 bottom: 0;
-left: 0;
+right: 0;
 content: "";
-width: 21vw;
-height: 36.54vw;
-background-size: 21vw 36.54vw;
+width: 15vw;
+height: 26.1vw;
+background-size: 15vw 26.1vw;
 background-image: url(https://saccharinart.github.io/Saccharin-Den/SailorUranus.png);
 background-repeat: no-repeat;
 
