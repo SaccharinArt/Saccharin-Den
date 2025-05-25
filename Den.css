@@ -4,10 +4,10 @@ You may edit and use this code for personal or commercial use.
 This comment must remain at the top in all cases - it will not be visible on final upload.
 */
 
-/*@font-face{
+@font-face{
  font-family: 'Amoria';
- src: url('https://saccharinart.github.io/Saccharin-Den/AMORIA.otf') format('otf');
-}*/
+ src: url('https://saccharinart.github.io/Saccharin-Den/AMORIA.otf') format('opentype');
+}
 
 body {
 background: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2019/11/Sailor-Neptune-And-Sailor-Uranus.jpg") fixed;
@@ -18,7 +18,7 @@ cursor : url('https://saccharinart.github.io/Saccharin-Den/sailor-moon-michiru-k
 }
  
 h1, h3 , .sidebar h3 {
-/*font-family: 'Amoria' !important;*//*a name to be used later*/
+font-family: 'Amoria' !important;
 color: #184A59;
 }
 h1, h3 {
