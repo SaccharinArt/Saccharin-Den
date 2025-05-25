@@ -15,7 +15,6 @@ background-repeat: no-repeat;
 background-size: cover;
 /*color: #000;*/
 cursor : url('https://saccharinart.github.io/Saccharin-Den/sailor-moon-michiru-kaiou-cursor_32.png'), default;
-cursor : url('https://saccharinart.github.io/Saccharin-Den/sailor-moon-sailor-pluto-and-space-time-key-cursor-pack_32.png'), pointer;
 }
 
 body::after{
@@ -31,7 +30,7 @@ height: 65px;
 background-size: 40px 65px;
 background-image: url(https://saccharinart.github.io/Saccharin-Den/SailorUranus.png);
 background-repeat: no-repeat;*/
- background-image: url(https://saccharinart.github.io/Saccharin-Den/SailorNeptune.png);
+ content: url(https://saccharinart.github.io/Saccharin-Den/SailorNeptune.png);
  position: fixed;
  bottom: 0;
  float: right;
@@ -65,15 +64,17 @@ border-radius: 5px;
 }
 
 /* Links */
-  
-.table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
+a, a:hover, a:active, a:visited, a:link{
+color: #184A59;
+cursor : url('https://saccharinart.github.io/Saccharin-Den/sailor-moon-sailor-pluto-and-space-time-key-cursor-pack_32.png'), pointer;
+}
+/*.table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
 color: #184A59;
 }
   
 .table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
-/*border-bottom: 1px solid #184A59;*/
 color: #184A59;
-}
+}*/
 
 /* Topbar */
   
