@@ -17,7 +17,7 @@ background-size: cover;
 cursor : url('https://saccharinart.github.io/Saccharin-Den/sailor-moon-michiru-kaiou-cursor_32.png'), default;
 }
 
-#pageContainer::before{
+.container.main::before{
 position: fixed;
 display: block;
 bottom: 0;
