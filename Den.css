@@ -220,6 +220,9 @@ background: #83b1a8a8;
     background: #9AC3BB;
     border-radius: 25px;
     margin: 15px;
+    min-width: 200px;
+    width: 45%;
+    height: 300px;
 }
 #fraProfileContent > div > img{
     aspect-ratio: auto;
