@@ -206,6 +206,26 @@ color: #000;
 background: #83b1a8a8;
 }
 
+/* Profile Content */
+#fraProfileContent{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+#fraProfileContent > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #9AC3BB;
+    border-radius: 25px;
+    margin: 15px;
+}
+#fraProfileContent > div > img{
+    aspect-ratio: auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
 /* Tables */
   
 .table, .item {
