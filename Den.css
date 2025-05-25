@@ -208,8 +208,9 @@ background: #83b1a8a8;
 
 /* Profile Content */
 #fraProfileContent{
-display: grid;
-grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 #fraProfileContent > div{
     display: flex;
