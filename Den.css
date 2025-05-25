@@ -29,7 +29,7 @@ background-size: 21vw 36.54vw;
 background-image: url(https://saccharinart.github.io/Saccharin-Den/SailorNeptune.png);
 background-repeat: no-repeat;
 }
-#pageContainer::after{
+#pageContainer::before{
 position: fixed;
 display: block;
 bottom: 0;
