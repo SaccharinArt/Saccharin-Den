@@ -4,10 +4,10 @@ You may edit and use this code for personal or commercial use.
 This comment must remain at the top in all cases - it will not be visible on final upload.
 */
 
-@font-face{
+/*@font-face{
  font-family: 'Amoria';
  src: url('https://saccharinart.github.io/Saccharin-Den/AMORIA.otf') format('otf');
-}
+}*/
 
 body {
 background: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2019/11/Sailor-Neptune-And-Sailor-Uranus.jpg") fixed;
@@ -18,7 +18,7 @@ background-size: cover;
 }
  
 h1, h3 , .sidebar h3 {
-font-family: 'Amoria' !important;/*a name to be used later*/
+/*font-family: 'Amoria' !important;*//*a name to be used later*/
 color: #184A59;
 }
 h1, h3 {
@@ -84,8 +84,7 @@ border: none;
 }
 
 a.navbar-brand > img {
-/*content: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b398317e-59ea-473f-82b0-698637eb9676/d8af9wg-fc1b0493-6343-414e-9177-fc75c8d05a6e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IzOTgzMTdlLTU5ZWEtNDczZi04MmIwLTY5ODYzN2ViOTY3NlwvZDhhZjl3Zy1mYzFiMDQ5My02MzQzLTQxNGUtOTE3Ny1mYzc1YzhkMDVhNmUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-_VV9tFez_jvcfB29Abcjxe7JxQ668yeZcdyaDGFRgU);*/
- content: url('https://saccharinart.github.io/Saccharin-Den/SailorUranus.png');
+content: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b398317e-59ea-473f-82b0-698637eb9676/d8af9wg-fc1b0493-6343-414e-9177-fc75c8d05a6e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IzOTgzMTdlLTU5ZWEtNDczZi04MmIwLTY5ODYzN2ViOTY3NlwvZDhhZjl3Zy1mYzFiMDQ5My02MzQzLTQxNGUtOTE3Ny1mYzc1YzhkMDVhNmUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-_VV9tFez_jvcfB29Abcjxe7JxQ668yeZcdyaDGFRgU);
 height: 95px;
 margin-top: 16px;
 }
@@ -187,6 +186,10 @@ color: #184A59;
 font-family: "Carter One";
 color: #000;
 }*/
+
+#pageContainer::after{
+content: url('https://saccharinart.github.io/Saccharin-Den/SailorUranus.png');
+}
   
 .col-md-9 {
 background: #83b1a8a8;
